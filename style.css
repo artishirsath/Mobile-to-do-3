@@ -88,6 +88,13 @@ a{
     
     filter: blur(2px);
 }
+.background{
+    background-color: whitesmoke;
+}
+.container1{
+    display: flex;
+    box-shadow: 0px 3px 15px lightgrey;;
+}
 
 .addtask{
   padding: 7px;
@@ -133,6 +140,7 @@ a{
     gap: 40px;
     justify-content: center;
     font-family: 'Cabin', sans-serif;
+    
 }
 .boxs{
     width: 350px;
@@ -229,10 +237,12 @@ a{
      .addtask{
         transform: translate(40px,0px);
         bottom: 400px;
-        top: 50%;
+        top: 40%;
         position: fixed;
         left: auto;
+        right: 75px;
     }
+    
     .img{
        align-items: center; 
        position: relative;
